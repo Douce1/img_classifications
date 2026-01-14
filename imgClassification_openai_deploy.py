@@ -68,9 +68,6 @@ JSON format으로 키는 'building', 'sea', 'mountain'으로 하고 각각 건�
 markdown format은 포함하지 말아줘.
 """
 
-img = Image.open('C:\\Users\\user\\Desktop\\AI\\26-01-2\\260113\\LLM_img\\imgs_classification\\01.jpg')  # 이미지 열기
-response = classify_image(prompt, img)     # GPT로부터 분류 결과 받기
-print(response)  # 결과 출력
 
 
 
@@ -111,3 +108,4 @@ if uploaded_file:
 # - 6) 결과 출력하기 : st.write / st.code
         st.subheader("분류 결과 : ")
         st.code(response) # st.write or st.code
+
